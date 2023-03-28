@@ -1,5 +1,7 @@
 #include <stdio.h>
-int main(void)
+
+
+int cVariables(void)
 {
     /* 아래 범위를 넘어서면 제일 작은 숫자로 반복 순환한다. */
     signed char sc; /* -128 ~ 127*/
@@ -18,5 +20,11 @@ int main(void)
     printf("unsigned long int: %d\n", uli);
     printf("float: %f\n", f);
     printf("double: %.9lf\n", d); /* 9자리 모두 표현하는 방법 */
+}
+
+
+int main(void)
+{
+    cVariables();
     return 0;
 }
