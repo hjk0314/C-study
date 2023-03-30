@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int cVariables(void)
+void cVariables()
 {
     /* 아래 범위를 넘어서면 제일 작은 숫자로 반복 순환한다. */
     signed char sc; /* -128 ~ 127*/
